@@ -1,0 +1,78 @@
+h1 {
+    position: relative;
+    padding: 20px 10px;
+    font-size: 20px;
+    border: 5px solid #325A8C;
+    width: fit-content;
+}
+
+h1::after {
+    content: "POINT";
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    background: #fff;
+    font-size: 15px;
+    color: #325A8C;
+    padding: 0 10px;
+}
+
+.special {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: large;
+    width: 75%;
+    background-color: lavender;
+    border: 3px solid purple;
+}
+
+html {
+    font-size: large;
+    width: auto;
+    background-color: rgba(117 190 218 / 50%);
+    color: #66cdaa;
+    border: dashed red;
+}
+
+head {
+    font-size: medium;
+    width: fit-content;
+    background-color: hsl(50 33% 25% / 75%);
+    color: blue;
+    border: thick double #b0e0e6;
+}
+
+body {
+    font-size: 0.8rem;
+    width: fit-content;
+    background-color: mediumaquamarine;
+    color: wheat;
+    border: 2rem solid;
+}
+
+meta {
+    font-size: 80%;
+    width: fit-content;
+    background-color: #11ffee00;
+    color: hsl(30 100% 50% / 60%)
+    border: 2px dotted;
+}
+
+title {
+    font-size: 18px;
+    width: max-content;
+    background-color: #b0c4de;
+    color: #4169e1;
+    border: solid;
+}
+
+link {
+    font-size: small;
+    width: auto;
+    background-color: #e6e6fa;
+    color: rgb(34 12 64 / 60%);
+    border: outset 2px blue;
+}

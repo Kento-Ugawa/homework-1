@@ -1,0 +1,19 @@
+/*p {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}*/
+
+/*背景を赤く、かつ写真を連続して表示させる*/
+html {
+    background-color: red;
+    background-image: url(../test-site/images/dog.jpeg);
+    background-position: 10px 10px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+p {
+    border: 3px solid black;
+}
